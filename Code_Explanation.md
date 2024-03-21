@@ -17,7 +17,19 @@ int main(void)
 }
 ```
 
-``volatile unsigned int i;`` : Is a designation of a varriable named i for counti
+``volatile unsigned int i;`` : Is a designation of a varriable named i.
+
+
+``WDTCTL = WDTPW + WDTHOLD;`` : Is used to stop the watchdog timer entirly. This is used to reset the code fucnality whne stuck in a state. 
+
+
+``P1DIR |= 0x01;`` : Is used to set values in a variable. By using the OR functionailty it then saves the value into theP1DIR variable. 
+
+
+``P1OUT ^= 0x01;`` : Is to XOR the value in the register with the value outside of the P1OUT. By Doing so whatever the the external value is being set to the internal value is then saved into the the current value of the XOR. 
+
+``for (i=10000; i>0; i--);`` : Then is to create a delay in the lgiht turning on/off to show a noticable diffrence for the human eye.
+
 
 
 
