@@ -1,42 +1,31 @@
-#Reason for Proejct
-- As a Embedded Software Engineering/PCB Engineering with Emebedded Expirence I will need to be adiquite with Embedded Engineering on a prototype (evaluation board). 
-- In most phases you'll be given software reqirements before the pcb is finished. 
-- So by protoptying software you can finish most if not all designs. 
-- On this case its called a evualtion board for devices. 
+# Reason for Project
+- As an Embedded Software Engineer/PCB Engineer with Embedded Experience, it is essential to be proficient in Embedded Engineering, especially when working with evaluation boards.
+- Often, software requirements are provided before the PCB design is finalized.
+- By prototyping software, most, if not all, design aspects can be completed in advance.
+- In this case, the focus is on an evaluation board for devices.
 
-#Design Programing for this proejct. 
-_ SInce I will be creating a complete smart mirror with usb-c protocols with their on bare metal incoeprations I am 
+# Design Programming for this Project
+- This project involves creating a complete smart mirror that incorporates USB-C protocols with bare-metal programming.
 
-#Requirements:
-MSP430 Complier From TExas Intsruments
+# Requirements
+- MSP430 Compiler from Texas Instruments
 
+# Software Recommendations
+What am I using?
+- Code Composer Studio (CCStudio)
+- MSP430 GCC Compiler
+- macOS Operating System
 
+# Hardware
+- MSP430 TI Hardware Evaluation Kit
 
-#Software Reconmendations 
-What am I using? 
-- Cocde Complie Studio (CCStudio)
-- MSP430 GCC Complier
-- MAC OS Operating System 
+You can purchase the required evaluation kit on Amazon: [MSP430 Evaluation Kit](https://www.amazon.com/gp/product/B07J3R15JB/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1).
 
-
-#Hardware 
-- MSP430 TI Hardware Bring Up 
-
-
-#Steps for Recreations:
-- Open CCStudio
-- Navigate to Devtools 
-- Select the Hardware Device most simlar to youre current hardware ( for me working on a MSP430 - EXP430G2ET) 
-- Navigate back to the CCStudio and under Start Section select "Browse and Import Examples"
-
-- Navigate to the blink.c under /examples run code to 
-- Download the code onto the board either duing the build or debug
-- run the code example on your board and notice the change of the led 
-
-
-
-
-
-
-
-
+# Steps for Recreation
+1. Open CCStudio.
+2. Navigate to Devtools.
+3. Select the hardware device most similar to your current hardware (for me, working on a MSP430 - EXP430G2ET).
+4. Navigate back to CCStudio and under the Start Section, select "Browse and Import Examples".
+5. Navigate to the `blink.c` under `/examples`, run the code to compile it.
+6. Download the compiled code onto the board, either during the build or debug phase.
+7. Run the code example on your board and observe the LED behavior change.
